@@ -4,6 +4,7 @@ resource "azurerm_resource_group" "rg1" {
     tags = {
       name = "kk"
       owner = "dev"
+      department = "IT"
         }
   
 }
